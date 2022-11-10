@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BaseH = ({tag, props}) => {
+const BaseH = ({className, ...props}) => {
   return (
-  <div></div>
+  <h3 ></h3>
   );
 };
 

@@ -5,7 +5,7 @@ import Preview from "../components/organisms/Preview";
 
 const Home = () => {
   return (
-    <div>
+    <div className='text-white'>
       <Header/>
       <Preview/>
     </div>

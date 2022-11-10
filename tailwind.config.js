@@ -11,6 +11,9 @@ module.exports = {
       white: '#FFFFFF'
     },
     extend: {
+      backgroundImage: {
+        'preview': "url('../../public/img.png')"
+      },
       fontFamily: {
         tesla: ['TESLA Regular']
       },
