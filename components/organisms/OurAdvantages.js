@@ -29,11 +29,11 @@ const OurAdvantages = () => {
   // test()
   return (
     <div className=''>
-      <div className="container mx-auto bg-grey pb-44">
+      <div className="container mx-auto bg-grey pb-20">
         <div className='text-white text-center pt-14 text-sm mb-3'>WHAT WE SERVE</div>
-        <div className='text-center mb-6'><BaseH className={''}>Отзывы покупателей</BaseH></div>
-        <div className='flex justify-center '>
-          <ListAdvantages advList={itemContent}/>
+        <div className='text-center mb-6'><BaseH className={''}>НАШИ ПРЕИМУЩЕСТВА</BaseH></div>
+        <div className='flex justify-center gap-x-10'>
+          <ListAdvantages  advList={itemContent}/>
         </div>
       </div>
     </div>
