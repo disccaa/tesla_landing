@@ -66,7 +66,7 @@ const Catalog = () => {
     img: '/type8.png'
   },]
   return (
-    <div>
+    <div id={'Catalog'}>
       <div className='container mx-auto bg-grey text-center pb-44'>
         <BaseH>КАТАЛОГ</BaseH>
         <div className='text-white text-center pt-8 text-sm mb-10 max-w-3xl mx-auto'>Ознакомьтесь с продукцией, которую

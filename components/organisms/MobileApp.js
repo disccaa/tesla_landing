@@ -2,8 +2,8 @@ import React from 'react';
 
 const MobileApp = () => {
   return (
-    <div>
-      <div className='container mx-auto py-36 px-72'>
+    <div id={'MobileApp'}>
+      <div className='container mx-auto py-36 px-72 relative' >
         <div className='flex justify-between'>
           <div>
             <img src="/mobile.png" alt="mobile" width="270px"/>
@@ -24,6 +24,7 @@ const MobileApp = () => {
             </div>
           </div>
         </div>
+        <img className={'absolute right-0  -bottom-40'} src="/car.svg" alt="car"/>
       </div>
     </div>
   );

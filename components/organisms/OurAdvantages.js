@@ -28,7 +28,7 @@ const OurAdvantages = () => {
 
   // test()
   return (
-    <div className=''>
+    <div  id={'OurAdvantages'}>
       <div className="container mx-auto bg-grey pb-20">
         <div className='text-white text-center pt-14 text-sm mb-3'>WHAT WE SERVE</div>
         <div className='text-center mb-6'><BaseH className={''}>НАШИ ПРЕИМУЩЕСТВА</BaseH></div>
