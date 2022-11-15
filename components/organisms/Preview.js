@@ -5,7 +5,7 @@ import BaseBtn from "../atom/BaseBtn";
 
 const Preview = () => {
   return (
-    <div>
+    <div id='Preview'>
       <div className='container bg-cover mx-auto text-center' style={{backgroundImage: `url('/img.png')`}}>
         <div className='text-6xl'><h1>Зарядные станции для <br/> электромобилей</h1></div>
         <div className='text-2xl mt-96'>Наша компания предлагает зарядные <br/> станции собственного производства.</div>

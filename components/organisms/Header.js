@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {Link} from "react-scroll/modules"
+import Preview from "./Preview";
 
 export default function Header({className, ...props}) {
   const [ulList, setUlList] = useState([
@@ -36,7 +37,7 @@ export default function Header({className, ...props}) {
         <nav>
           <div className="flex h-24 justify-around items-center ">
             <div>
-              <Link to= spy={true} smooth={true} offset={50} duration={500}> <span className="font-tesla text-2xl font-normal  cursor-pointer">QuatPoint</span><Link/>
+              <Link to={'Preview'} spy={true} smooth={true} offset={50} duration={500}> <span className="font-tesla text-2xl font-normal  cursor-pointer">QuatPoint</span></Link>
             </div>
             <div className='w-1/3'>
               <ul className="flex font-main justify-around  ">
